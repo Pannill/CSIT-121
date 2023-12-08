@@ -14,8 +14,8 @@ body {
 
 /* Image Container Styles */
 .image-container {
-    width: 180px;
-    height: 250px;
+    width: 350px;
+    height: 520px;
     box-shadow: 10px 10px 5px grey;
     border-radius: 15px;
     overflow: hidden;
@@ -37,7 +37,7 @@ header {
     background-color: #EEE2DE;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -61,6 +61,11 @@ p {
     line-height: 1.5;
 }
 
+/* CSS */
+.image-container {
+    display: inline-block;
+    margin: 10px; /* Add margin for spacing between images */
+}
 
 /* Additional Styles for Alignment */
 .content-wrapper {
