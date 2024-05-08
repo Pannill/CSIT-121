@@ -1,0 +1,114 @@
+/* Body Styles */
+body {
+    background-color: #ffffff; /* Background color */
+    color: #333333; /* Text color */
+    font-family: 'Arial', sans-serif; /* Font family */
+    margin: 20px; /* Margin around the body */
+    padding: 0; /* No padding */
+}
+
+/* Image Container Styles */
+.image-container {
+    width: 100%; /* Responsive width */
+    margin: 20px 0; /* Margin above and below */
+}
+
+img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Header Styles */
+header {
+    background-color: #EEE2DE; /* Background color */
+    color: #333; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 20px; /* Padding */
+}
+
+h1, h2 {
+    color: #333; /* Text color */
+}
+
+h2 {
+    color: #cc0000; /* Text color */
+}
+
+dt {
+    text-decoration: underline; /* Underlining to dt elements */
+}
+
+/* List Styles */
+ul, ol {
+    padding-left: 20px; /* Left padding for lists */
+}
+
+/* Paragraph Styles */
+p {
+    line-height: 1.6; /* Line height */
+}
+
+/* Hyperlink Styles */
+a:link, a:visited {
+    color: #4285f4; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    color: #ff6347; /* Hover color */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Media Query for Desktop */
+@media only screen and (min-width: 768px) {
+    .content-wrapper {
+        display: flex; /* Flexbox layout */
+        justify-content: space-between; /* Space between items */
+    }
+
+    #main-content, #additional-content {
+        width: 48%; /* Width for main and additional content */
+    }
+
+    .image-container {
+        width: 45%; /* Width for images */
+        float: left; /* Float left */
+        margin-right: 10%; /* Margin right */
+    }
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Margin at the top */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Border */
+    padding: 8px; /* Padding */
+    text-align: left; /* Left-aligned text */
+}
+
+thead th {
+    background-color: #ce3131; /* Background color */
+    color: white; /* Text color */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+tbody tr:hover {
+    background-color: #ddd; /* Hover row background color */
+}
+
+a {
+    color: #0652DD; /* Link color */
+    text-decoration: none; /* No underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
